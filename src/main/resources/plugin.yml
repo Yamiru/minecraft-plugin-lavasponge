@@ -1,0 +1,22 @@
+name: LavaSponge
+version: 1.0.0
+main: me.yamiru.lavasponge.LavaSponge
+api-version: 1.20
+author: Yamiru
+website: https://github.com/Yamiru/minecraft-plugin-lavasponge
+description: Simple plugin to absorb lava with sponges
+
+commands:
+  lavasponge:
+    description: Reload plugin or show info
+    usage: /lavasponge <reload|info>
+    permission: lavasponge.admin
+    aliases: [ls, lsponge]
+
+permissions:
+  lavasponge.use:
+    description: Allows using sponge to absorb lava
+    default: false
+  lavasponge.admin:
+    description: Allows reloading plugin and viewing info
+    default: op
