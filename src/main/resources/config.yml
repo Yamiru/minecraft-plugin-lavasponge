@@ -1,0 +1,17 @@
+# LavaSponge Configuration
+# GitHub: https://github.com/Yamiru/minecraft-plugin-lavasponge
+
+# Enable or disable the plugin globally
+enabled: true
+
+# Worlds where lava sponge is enabled (empty = all worlds)
+enabled-worlds: []
+
+# Disabled worlds (priority over enabled-worlds)
+disabled-worlds: []
+
+# Lava absorption settings
+absorption:
+  radius: 2
+  wet-sponge: false
+  max-blocks: 65
